@@ -7,7 +7,7 @@ Date:     December 7 2021
  This is a test version.
 
 ---- CREDITS ---------------------------------------------------
-  
+
 Map created by Gucior.
 
 E-mail: walkmanaka@gmail.com

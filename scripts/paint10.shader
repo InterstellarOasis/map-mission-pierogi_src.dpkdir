@@ -16,9 +16,9 @@
   tcMod turb 1 0.05 0 0.3
  }
  {
-  map $lightmap 
+  map $lightmap
   blendfunc filter
-  tcGen lightmap 
+  tcGen lightmap
  }
 }
 

@@ -7,12 +7,12 @@ textures/mixbygucior/szyba
 		map textures/mixbygucior/plainglass.tga
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
-                }
+	}
 }
 
 textures/mixbygucior/shootavivable
 	{
-        qer_editorimage textures/mixbygucior/force_field.tga
+	qer_editorimage textures/mixbygucior/force_field.tga
 	surfaceparm nodamage
 	surfaceparm nomarks
 	//surfaceparm nonsolid
@@ -26,7 +26,7 @@ textures/mixbygucior/shootavivable
 	{
 		map textures/mixbygucior/force_grid.tga
 		blendfunc add
-		rgbGen wave noise 0 1 0.1 1 
+		rgbGen wave noise 0 1 0.1 1
 		tcMod scroll 50 30
 	}
 }

@@ -7,14 +7,14 @@ textures/tremor_bygucior/szyba
 		map textures/tremor/plainglass.tga
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
-                }
+	}
 }
 
 textures/tremor_bygucior/bariera
-	{
-        qer_editorimage textures/tremor_bygucior/force_field.tga
-	surfaceparm trans	
-        surfaceparm nomarks	
+{
+	qer_editorimage textures/tremor_bygucior/force_field.tga
+	surfaceparm trans
+    surfaceparm nomarks
 	surfaceparm nolightmap
 	cull disabled
 	{
@@ -31,8 +31,8 @@ textures/tremor_bygucior/bariera
 }
 
 textures/tremor_bygucior/shootavivable
-	{
-        qer_editorimage textures/tremor_bygucior/force_field.tga
+{
+	qer_editorimage textures/tremor_bygucior/force_field.tga
 	surfaceparm nodamage
 	surfaceparm nomarks
 	//surfaceparm nonsolid
@@ -46,14 +46,14 @@ textures/tremor_bygucior/shootavivable
 	{
 		map textures/tremor_bygucior/force_grid.tga
 		blendfunc add
-		rgbGen wave noise 0 1 0.1 1 
+		rgbGen wave noise 0 1 0.1 1
 		tcMod scroll 50 30
 	}
 }
 
 textures/tremor_bygucior/blokadawody
 	{
-        qer_editorimage textures/tremor_bygucior/force_field.tga
+	qer_editorimage textures/tremor_bygucior/force_field.tga
 	surfaceparm nodamage
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -66,7 +66,7 @@ textures/tremor_bygucior/blokadawody
 	{
 		map textures/tremor_bygucior/force_grid.tga
 		blendfunc add
-		rgbGen wave noise 0 1 0.1 1 
+		rgbGen wave noise 0 1 0.1 1
 		tcMod scroll 50 30
 	}
 }
@@ -75,9 +75,9 @@ textures/tremor_bygucior/wodzionka
 {
 	qer_editorimage textures/tremor_bygucior/water.tga
 	qer_trans .5
-	
+
 	entityMergable
-	
+
 	q3map_globaltexture
 
 	surfaceparm nobuild
@@ -108,7 +108,7 @@ textures/tremor_bygucior/wodzionka
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		blendfunc filter
 	}
 }
