@@ -1,5 +1,6 @@
 {
-  map       "mission-pierogi"
-  longname  "Mission Pierogi"
-  type      "tremulous"
+	map "mission-pierogi"
+	longname "Mission Pierogi"
+	author "Gucior"
+	type "tremulous"
 }
